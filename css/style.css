@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Hedvig Letters Serif', serif;
+    text-align: center;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: url('../img/image1.jpg');
+    background-size: cover;
+    background-position: top;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -35px;
+}
+
+.intro-image__text a {
+    background-color: #ff00c83a;
+    border: 2px solid #af25ff94;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.7s ease-in-out;
+}
+
+.intro-image__text a:hover {
+    transform: scale(1.2);
+}
+
+.intro-text {
+    background-color: #fa60ff;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    padding: 0 25rem;
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
+}
+
+.intro-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.packaging-image {
+    background-attachment: fixed;
+    background-image: url('../img/image2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -35px;
+}
+
+.packaging-image__text a {
+    background-color: #20061991;
+    border: 2px solid #843354;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.7s ease-in-out;
+}
+
+.packaging-image__text a:hover {
+    transform: scale(1.2);
+}
+
+.packaging-text {
+    background-color: #2b0053;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    padding: 0 25rem;
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+}
+
+.packaging_text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.tutorials-image {
+    background-attachment: fixed;
+    background-image: url('../img/image3.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -35px;
+}
+
+.tutorials-image__text a {
+    background-color: #b667ff85;
+    border: 2px solid #ffffff;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.7s ease-in-out;
+}
+
+.tutorials-image__text a:hover {
+    transform: scale(1.2);
+}
+
+.tutorials-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.footer {
+    height: 250px;
+    background-color: #6b46ba;
+    color: rgb(255, 255, 255);
+    padding-top: 2rem;
+    font-size: 1.2rem;
+    clip-path: polygon(50% 0%, 100% 8%, 100% 43%, 100% 100%, 68% 100%, 32% 100%, 0 100%, 0% 43%, 0 8%);
+}
+
+.footer ul li {
+ display: inline-block;
+ margin: 1rem;
+}
+
+.footer ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.footer ul li a:hover, .footer ul li:hover {
+    color: #a557ff;
+    transform: scale 1.2;
+}
+
